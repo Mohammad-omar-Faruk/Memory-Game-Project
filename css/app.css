@@ -322,3 +322,30 @@ a.btn:hover, a.btn:active {
     transform: perspective(400px);
   }
 }
+
+/******  Media queries  *****/
+
+@media (max-width: 768px) {
+  .deck {
+    width: 85%;
+  }
+
+  .deck .card {
+    height: 4.7rem;
+    width: 4.7rem;
+  }
+
+  .modal {
+    width: 50%;
+    align-content: center;
+  }
+}
+
+/* For Tablets and larger screens****************/
+
+@media (min-width: 768px) {
+  
+  .modal {
+    width: 100%;
+  }
+}
